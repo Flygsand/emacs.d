@@ -8,6 +8,9 @@
 (scroll-bar-mode -1)
 (blink-cursor-mode -1)
 
+; disable splash screen
+(setq inhibit-splash-screen t)
+
 ; use UTF-8
 (prefer-coding-system 'utf-8)
  
