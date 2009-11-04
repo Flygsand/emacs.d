@@ -40,3 +40,8 @@
 (require 'yasnippet)
 (yas/initialize)
 (yas/load-directory (concat (path-to-library "yasnippet") "snippets"))
+
+;;----------------------------------------------------------------------------
+;; Python
+;;----------------------------------------------------------------------------
+(require 'init-python)
