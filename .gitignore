@@ -1,2 +1,12 @@
-auto-save-list
+/.emacs.desktop
+/auto-save-list
+/.session
+*.elc
+CVS
+.svn
 *~
+.cvsignore
+.*.lock
+/tramp
+/anything-c-adaptive-history
+/.org-id-locations
