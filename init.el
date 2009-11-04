@@ -10,6 +10,15 @@
 (setq load-path (cons (expand-file-name "~/.emacs.d") load-path))
 
 ;;----------------------------------------------------------------------------
+;; Auxiliary functions
+;;----------------------------------------------------------------------------
+
+;directory-of-library returns the path to a given library 
+(require 'find-func)
+(defun path-to-library (library-name)
+  (file-name-as-directory (file-name-directory (find-library-name library-name))))
+
+;;----------------------------------------------------------------------------
 ;; UI tweaks
 ;;----------------------------------------------------------------------------
 (menu-bar-mode -1)
@@ -20,8 +29,14 @@
 ;;----------------------------------------------------------------------------
 ;; Color theme
 ;;----------------------------------------------------------------------------
-
 (require 'color-theme-autoloads)
 (autoload 'color-theme-twilight "color-theme-twilight" "A dark color theme" t)
 (color-theme-initialize)
 (color-theme-twilight)
+
+;----------------------------------------------------------------------------
+;; yasnippet
+;;----------------------------------------------------------------------------
+(require 'yasnippet)
+(yas/initialize)
+(yas/load-directory (concat (path-to-library "yasnippet") "snippets"))
