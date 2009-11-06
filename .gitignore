@@ -1,6 +1,7 @@
 /.emacs.desktop
 /auto-save-list
 /.session
+/session.*
 *.elc
 CVS
 .svn

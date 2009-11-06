@@ -44,15 +44,6 @@
 (setq load-path (cons (expand-file-name "~/.emacs.d") load-path))
 
 ;;----------------------------------------------------------------------------
-;; Auxiliary functions
-;;----------------------------------------------------------------------------
-
-;directory-of-library returns the path to a given library 
-(require 'find-func)
-(defun path-to-library (library-name)
-  (file-name-as-directory (file-name-directory (find-library-name library-name))))
-
-;;----------------------------------------------------------------------------
 ;; Color theme
 ;;----------------------------------------------------------------------------
 (require 'color-theme-autoloads)
@@ -65,7 +56,8 @@
 ;;----------------------------------------------------------------------------
 (require 'yasnippet)
 (yas/initialize)
-(yas/load-directory (concat (path-to-library "yasnippet") "snippets"))
+(setq yas/root-directory '("~/.emacs.d/snippets" "~/.emacs.d/site-lisp/yasnippet/snippets"))
+(mapc 'yas/load-directory yas/root-directory)
 
 ;;----------------------------------------------------------------------------
 ;; auto-complete
