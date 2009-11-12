@@ -1,0 +1,2 @@
+* Add distel for Erlang
+* Fix problem where Emacs hangs when pressing <TAB> in rinari-console
