@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # install needed Arch packages
-yaourt -Sy setuptools mercurial pymacs pyflakes
+pacman -Sy setuptools mercurial pymacs pyflakes
 
 cd /tmp
 
