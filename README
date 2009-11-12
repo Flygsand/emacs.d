@@ -1,0 +1,26 @@
+This is my .emacs.d directory.
+
+Directory structure:
+
+.emacs.d
+|-- elpa                        # ELPA third-party packages 
+|-- init-*.el                   # Language/mode-specific init
+|-- init.el                     # Global init
+|-- install-dependencies.sh     # Installs needed external packages
+|-- site-lisp                   # Third-party packages
+`-- snippets                    # Additional snippets
+
+Setup:
+
+NOTE: install-dependencies.sh relies on the Arch Linux package manager
+"pacman" - you need to adapt this script if you're using a different
+package manager.
+
+    cd
+    git clone git://github.com/mtah/emacs.d.git .emacs.d
+    cd .emacs.d
+    ./install-dependencies.sh
+    git submodule update --init --recursive
+    
+Thanks goes to Steve Purcell (purcell), whose .emacs.d served as a
+blueprint for mine.
