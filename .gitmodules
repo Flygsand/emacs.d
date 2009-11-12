@@ -10,3 +10,12 @@
 [submodule "site-lisp/magit"]
 	path = site-lisp/magit
 	url = git://gitorious.org/magit/mainline.git
+[submodule "site-lisp/rinari"]
+	path = site-lisp/rinari
+	url = git://github.com/eschulte/rinari.git
+[submodule "site-lisp/yaml-mode"]
+	path = site-lisp/yaml-mode
+	url = git://github.com/yoshiki/yaml-mode.git
+[submodule "site-lisp/rhtml-mode"]
+	path = site-lisp/rhtml-mode
+	url = git://github.com/eschulte/rhtml.git
