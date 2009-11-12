@@ -4,3 +4,6 @@
 [submodule "site-lisp/color-theme-twilight"]
 	path = site-lisp/color-theme-twilight
 	url = git://github.com/crafterm/twilight-emacs.git
+[submodule "snippets/haskell-mode"]
+	path = snippets/haskell-mode
+	url = git://github.com/rmies/yasnippet-haskell.git
