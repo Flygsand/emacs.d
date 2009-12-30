@@ -32,6 +32,9 @@
 ; TAB => 4*'\b'
 (setq default-tab-width 4)
 
+; enable auto-fill-mode for all major modes
+(setq-default auto-fill-function 'do-auto-fill)
+
 ;;----------------------------------------------------------------------------
 ;; Set load path
 ;;----------------------------------------------------------------------------

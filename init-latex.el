@@ -1,4 +1,3 @@
-(add-hook 'latex-mode-hook 
-          '(lambda () (orgtbl-mode) (auto-fill-mode)))
+(add-hook 'latex-mode-hook 'orgtbl-mode)
 
 (provide 'init-latex)
