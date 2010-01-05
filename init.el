@@ -139,6 +139,13 @@
 (autoload 'pkgbuild-mode "pkgbuild-mode.el" "PKGBUILD mode." t)
 (setq auto-mode-alist (append '(("/PKGBUILD$" . pkgbuild-mode))
                               auto-mode-alist))
+;;----------------------------------------------------------------------------
+;; Markdown
+;;----------------------------------------------------------------------------
+(autoload 'markdown-mode "markdown-mode.el"
+  "Major mode for editing Markdown files" t)
+(setq auto-mode-alist
+      (cons '("\\.md" . markdown-mode) auto-mode-alist))
 
 ;;----------------------------------------------------------------------------
 ;; ELPA

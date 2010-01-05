@@ -19,3 +19,6 @@
 [submodule "site-lisp/rhtml-mode"]
 	path = site-lisp/rhtml-mode
 	url = git://github.com/eschulte/rhtml.git
+[submodule "site-lisp/markdown-mode"]
+	path = site-lisp/markdown-mode
+	url = http://jblevins.org/git/markdown-mode.git
