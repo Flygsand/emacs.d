@@ -22,3 +22,6 @@
 [submodule "site-lisp/markdown-mode"]
 	path = site-lisp/markdown-mode
 	url = http://jblevins.org/git/markdown-mode.git
+[submodule "site-lisp/piglatin-mode"]
+	path = site-lisp/piglatin-mode
+	url = git://github.com/cloudera/piglatin-mode.git
