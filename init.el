@@ -157,6 +157,13 @@
   "Major mode for editing Pig scripts" t)
 (setq auto-mode-alist
       (cons '("\\.pig" . piglatin-mode) auto-mode-alist))
+;;----------------------------------------------------------------------------
+;; ARFF
+;;----------------------------------------------------------------------------
+(autoload 'arff-mode "arff-mode.el"
+  "Major mode for editing ARFF files" t)
+(setq auto-mode-alist
+      (cons '("\\.arff" . arff-mode) auto-mode-alist))
 
 ;;----------------------------------------------------------------------------
 ;; ELPA
