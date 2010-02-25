@@ -38,6 +38,9 @@
 ; enable auto-fill-mode for text-mode
 (add-hook 'text-mode-hook 'turn-on-auto-fill)
 
+; keyboard bindings
+(global-set-key "\C-cg" 'goto-line) 
+
 ;;----------------------------------------------------------------------------
 ;; Set load path
 ;;----------------------------------------------------------------------------
