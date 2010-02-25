@@ -157,6 +157,14 @@
   "Major mode for editing Pig scripts" t)
 (setq auto-mode-alist
       (cons '("\\.pig" . piglatin-mode) auto-mode-alist))
+
+;;----------------------------------------------------------------------------
+;; JavaScript
+;;----------------------------------------------------------------------------
+
+(add-to-list 'auto-mode-alist '("\\.js\\'" . javascript-mode))
+      (autoload 'javascript-mode "javascript-mode.el" nil t)
+
 ;;----------------------------------------------------------------------------
 ;; ARFF
 ;;----------------------------------------------------------------------------
