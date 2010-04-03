@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: s
+# --
+\section{${1:name}}
+$0

@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: bib
+# --
+\bibliographystyle{plain}
+\bibliography{${1:name}}

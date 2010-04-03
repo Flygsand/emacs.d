@@ -25,3 +25,6 @@
 [submodule "site-lisp/piglatin-mode"]
 	path = site-lisp/piglatin-mode
 	url = git://github.com/cloudera/piglatin-mode.git
+[submodule "snippets/latex-mode"]
+	path = snippets/latex-mode
+	url = git://github.com/secelis/yasnippet-latex-mode.git

@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: book
+# --
+@book{${1:citekey},
+author          = $2
+editor          = $3
+title           = $4
+publisher       = $5
+year            = $6
+}
+
+$0

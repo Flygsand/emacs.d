@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: sp
+# --
+\subparagraph{${1:name}}
+$0

@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: article
+# --
+@article{${1:citekey},
+author  = $2
+title   = $3
+journal = $4
+year    = $5
+}
+
+$0

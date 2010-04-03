@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: c
+# --
+\chapter{${1:name}}
+$0
