@@ -28,3 +28,6 @@
 [submodule "snippets/latex-mode"]
 	path = snippets/latex-mode
 	url = git://github.com/secelis/yasnippet-latex-mode.git
+[submodule "site-lisp/campfire-el"]
+	path = site-lisp/campfire-el
+	url = git://github.com/timcharper/campfire-el.git

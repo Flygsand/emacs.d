@@ -13,3 +13,4 @@ CVS
 /tramp
 /anything-c-adaptive-history
 /.org-id-locations
+/init-priv.el
